@@ -3,11 +3,6 @@ using DateTime.structures;
 
 namespace DateTimeTest {
     public class UnitTestDateTimeTest {
-        ActionsDateTime _actionsDateTime;
-
-        public UnitTestDateTimeTest() {
-            _actionsDateTime = new ActionsDateTime();
-        }
 
         [Fact]
         public void AddQuarters() {

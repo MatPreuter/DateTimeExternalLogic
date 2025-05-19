@@ -3,9 +3,6 @@ using DateTime.structures;
 
 namespace DateTime.actions {
     public class ActionsDateTime : InterfaceDateTime {
-        public ActionsDateTime() {
-
-        }
 
         public void AddQuarters(DateTime DateIn, int Quarters, out DateTime Date) {
             Date = new DateTime();
